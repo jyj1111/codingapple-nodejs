@@ -1,0 +1,13 @@
+서버: 요청(HTTP)을 받으면 요청한 내용을 보내주는 프로그램
+요청의 방식: 읽기(GET) 생성(POST) 수정(PATCH) 삭제(DELETE)
+Node js: 자바스크립트를 브라우저 내에서 말고도 다른 곳에서 실행하게 할수 있는 실행환경
+Non-blocking IO: 요청한 내용을 한꺼번에 받아 가벼운 요청부터 해결해줌. 이런 특성 때문에 SNS나 채팅서비스에 특화됨.
+자바스크립트 동작원리: 싱글쓰레드(한번에 한줄만 실행), 스택: 실행  큐: 대기실 
+API: 웹서버와 고객간의 소통방법 
+REST API: 1. uniform interface  : 하나의 url로는 하나의 데이터를 가져야함. 
+          2. client server 역할 구분 
+          3. stateless(요청끼리는 의존성이 없어야 함)  
+          4. cacheable 
+          5. layered system 
+          6. code on demand
+ 
